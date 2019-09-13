@@ -4,9 +4,9 @@
   "description": "Resume website template that works on a monitor, paper, and phone.",
   "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
-    "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o public/styles.css",
-    "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css"
+    "serve": "concurrently \"postcss ./tailwind.css -o cv/styles.css --watch\"  \"live-server ./cv \"",
+    "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o cv/styles.css",
+    "public": "cross-env NODE_ENV=cv postcss ./tailwind.css -o cv/styles.css"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
